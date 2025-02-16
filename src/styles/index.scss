@@ -1,0 +1,37 @@
+@font-face {
+    font-family: "Fira Sans";
+    src: url('./../assets/Fira Sans/FiraSans-Bold.ttf');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: "Fira Sans";
+    src: url('./../assets/Fira Sans/FiraSans-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./../assets/Montserrat/Montserrat-Regular.ttf');
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url('./../assets/Montserrat/Montserrat-Bold.ttf');
+    font-weight: bold;
+}
+
+:root {
+    --font-family: "Fira Sans", sans-serif;
+    --second-family: "Montserrat", sans-serif;
+}
+
+body {
+    font-family: var(--font-family);
+}
+
+.container {
+    max-width: 1600px;
+    margin: 0 auto;
+}

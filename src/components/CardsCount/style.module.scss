@@ -1,0 +1,14 @@
+.count {
+    margin: 13px 0 0 39px;
+
+    font-family: var(--second-family);
+    font-weight: 400;
+    font-size: 16px;
+    color: #282626;
+}
+
+@media (max-width: 650px) {
+    .count {
+        font-size: 12px;
+    }
+}
